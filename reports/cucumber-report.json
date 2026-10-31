@@ -1,0 +1,266 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "shopping-cart;add-a-product-to-the-cart",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Add a product to the cart",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2024888899
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 594503500
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigate to url \"https://www.saucedemo.com/\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 415197400
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user enter username as \"standard_user\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 86916900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user enter password as \"secret_sauce\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user click on login button"
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user click on add to cart",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user click on cart icon",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "product added in the cart",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 867700
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart;remove-a-product-from-the-cart",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Remove a product from the cart",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2300065899
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 687263799
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigate to url \"https://www.saucedemo.com/\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 383107799
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user enter username as \"standard_user\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44885599
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user enter password as \"secret_sauce\"",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user click on login button"
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user click on add to cart",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user click on cart icon",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:12"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user click on remove",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "product removed from the cart",
+            "match": {
+              "location": "src\\stepDefinitions\\cartSteps.ts:30"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 397399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "shopping-cart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Shopping Cart",
+    "tags": [],
+    "uri": "src\\features\\cart.feature"
+  }
+]

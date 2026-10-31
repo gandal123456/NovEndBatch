@@ -1,0 +1,25 @@
+{
+  "name": "octbatchproject2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "test":"npx cucumber-js --format progress --format html:test-results/cucumber-report.html",
+     "report":"start test-results\\cucumber-report.html"
+
+
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.6.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+
+  "login":
+  {
+    "username":"//*[@placeholder='Username']",
+    "password":"//*[@placeholder='Password']",
+    "loginBtn":"//*[@id='login-button']",
+    "dashboard":"//*[text()='Products']",
+    "invalidCredentials":"//*[text()='secret_sauce']"
+  },
+
+  "cart":
+  {
+      "add":"//*[contains(@name,'add-to-cart-sauce-labs-backpac')]",
+      "icon":"//*[@class='shopping_cart_link']",
+      "addedProduct":"//*[text()='Sauce Labs Backpack']",
+      "remove":"//*[text()='Remove']",
+      "cartEmpty":"//*[text()='Sauce Labs Backpack']"
+  }
+
+}
